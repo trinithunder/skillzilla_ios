@@ -15,6 +15,9 @@
 		9945F8E92B2A50B8006FAEAA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9945F8E82B2A50B8006FAEAA /* OnboardingView.swift */; };
 		9945F8EB2B2A60F0006FAEAA /* OnboardBuildComm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9945F8EA2B2A60F0006FAEAA /* OnboardBuildComm.swift */; };
 		9945F8ED2B2A6128006FAEAA /* OnboardDevDino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9945F8EC2B2A6128006FAEAA /* OnboardDevDino.swift */; };
+		99B6A3302B7BF367001C4B78 /* SZListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6A32F2B7BF367001C4B78 /* SZListView.swift */; };
+		99B6A3332B7D4771001C4B78 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6A3322B7D4770001C4B78 /* LogIn.swift */; };
+		99B6A3362B7D4AF9001C4B78 /* AccountCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6A3352B7D4AF9001C4B78 /* AccountCreateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		9945F8E82B2A50B8006FAEAA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		9945F8EA2B2A60F0006FAEAA /* OnboardBuildComm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardBuildComm.swift; sourceTree = "<group>"; };
 		9945F8EC2B2A6128006FAEAA /* OnboardDevDino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardDevDino.swift; sourceTree = "<group>"; };
+		99B6A32F2B7BF367001C4B78 /* SZListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZListView.swift; sourceTree = "<group>"; };
+		99B6A3322B7D4770001C4B78 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		99B6A3352B7D4AF9001C4B78 /* AccountCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 		9945F8D62B2A4F94006FAEAA /* SkillZilla_ios */ = {
 			isa = PBXGroup;
 			children = (
+				99B6A3342B7D4ACC001C4B78 /* Create account */,
+				99B6A3312B7BFD96001C4B78 /* Log In */,
+				99B6A32E2B7BF33E001C4B78 /* Shared */,
 				9945F8E52B2A5006006FAEAA /* Onboarding */,
 				9945F8D72B2A4F94006FAEAA /* SkillZilla_iosApp.swift */,
 				9945F8D92B2A4F94006FAEAA /* ContentView.swift */,
@@ -85,6 +94,30 @@
 				9945F8EC2B2A6128006FAEAA /* OnboardDevDino.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		99B6A32E2B7BF33E001C4B78 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				99B6A32F2B7BF367001C4B78 /* SZListView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		99B6A3312B7BFD96001C4B78 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				99B6A3322B7D4770001C4B78 /* LogIn.swift */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		99B6A3342B7D4ACC001C4B78 /* Create account */ = {
+			isa = PBXGroup;
+			children = (
+				99B6A3352B7D4AF9001C4B78 /* AccountCreateView.swift */,
+			);
+			path = "Create account";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +196,9 @@
 				9945F8EB2B2A60F0006FAEAA /* OnboardBuildComm.swift in Sources */,
 				9945F8DA2B2A4F94006FAEAA /* ContentView.swift in Sources */,
 				9945F8D82B2A4F94006FAEAA /* SkillZilla_iosApp.swift in Sources */,
+				99B6A3302B7BF367001C4B78 /* SZListView.swift in Sources */,
+				99B6A3332B7D4771001C4B78 /* LogIn.swift in Sources */,
+				99B6A3362B7D4AF9001C4B78 /* AccountCreateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
